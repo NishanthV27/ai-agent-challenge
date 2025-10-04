@@ -11,4 +11,4 @@ To use the agent, first **clone the repository** with `git clone https://github.
 
 ## Agent Workflow
 The AI agent first checks whether a parser exists for the target bank and creates one automatically if missing. It then loads the parser, extracts transactions from the PDF into a DataFrame, and compares the results with the reference CSV. If there are mismatches, it retries parsing up to three times using progressively relaxed rules to ensure self-correction. Once successful, it prints all extracted transactions along with summary statistics including total transactions, sum of amounts, and final balance, completing the parsing process autonomously.
-<img width="1154" height="723" alt="diagram-export-10-4-2025-9_05_41-PM" src="https://github.com/user-attachments/assets/eca0bdef-6636-41ee-b988-88cd618296a1" />
+<img width="1154" height="632" alt="diagram-export-10-4-2025-9_05_41-PM" src="https://github.com/user-attachments/assets/682080bc-f3bc-457b-8bb2-161d8b9f6bd9" />
